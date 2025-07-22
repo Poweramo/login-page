@@ -1,0 +1,26 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	height: 200px;
+	width: 300px;
+}
+
+input[type="text"] {
+	height: 20px;
+	width: 150px;
+}
